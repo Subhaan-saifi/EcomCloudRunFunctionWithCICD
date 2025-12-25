@@ -8,7 +8,7 @@ logger = logging.getLogger('order_utils')
 
 def validate_payload(data: Dict[str, Any]):
     """
-    Ensure required fields are present and types look sane.
+    Ensure required fields are   present and types look sane.
     Raises ValueError if something’s missing or malformed.
     """
     required = [
